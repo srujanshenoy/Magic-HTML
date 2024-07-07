@@ -1,0 +1,41 @@
+*{
+    background: white;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border: all o.4 ese;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    background-color: white;
+    height: 25px;
+    width: 200px;
+    margin-top: 10px;
+}
+.box {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    background-color: lightgray;
+    border: 1px solid black;
+    float: left; /* Make the square float to the left */
+    margin-right: 20px; /* Add some space between the square and the inputs */
+}
+
+.input-container {
+    float: right; /* Make the input container float to the right */
+}
+
+.input-container input {
+    width: 150px; /* Adjust as needed */
+}
+
+.input-container label {
+    display: block; /* Make labels appear on their own line */
+}
